@@ -1,6 +1,0 @@
-Om dit alles te runnen moet je de volgende dingen hebben:
-
-1. Linux (preferabel, want op windows gaat alles een stuk moeilijker)
-2. Python 2.7 of hoger
-3. De twisted library (https://twistedmatrix.com/trac/wiki/Downloads)
-4. MySQLdb, waarin je de database "mydata" aan hebt gemaakt
