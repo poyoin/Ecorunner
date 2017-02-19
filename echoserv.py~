@@ -52,7 +52,7 @@ def stopAndWriteDatabase(signal, frame):
 	cursor = db.cursor()
 	cursor.execute("SELECT * FROM Temperature;")
 	
-	with open('outfile.csv', 'w') as f:
+	with open('outfile', 'w') as f:
 		writer = csv.writer(f)
 		for row in cursor.fetchall():
 			writer.writerow(row)
