@@ -12,7 +12,7 @@ from twisted.protocols.basic import LineReceiver
 
 
 class EchoClient(LineReceiver):
-    end = "message"	
+    end = "messag"	
 
     def connectionMade(self):
 	self.sendLine(self.end)
